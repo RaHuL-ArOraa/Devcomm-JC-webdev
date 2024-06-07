@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service</title>
+    <link rel="stylesheet" href="service.css">
+</head>
+
+<body>
+    <nav class="box">
+        <img class="img1" src="crave.png" alt="">
+        <div class="nav-list">
+            <a href="index.html">
+                <p class="para1">Home</p>
+            </a>
+            <a href="menu.html">
+                <p class="para1">Catalogue</p>
+            </a>
+            <a href="index.html#about">
+                <p class="para1">About Us</p>
+            </a>
+            <a href="service.html">
+                <p class="para1">Customer Service</p>
+            </a>
+        </div>
+    </nav>
+    <div class="rahul">
+        <div class="box3">
+            <div class="box1">
+                <h1>Need Support?</h1>
+                <p class="para">Submit the form below to contact Crave Corner's Customer Success Team.</p>
+            </div>
+            <form action="post">
+                <div class="box2">
+                    <label for="contact"> CONTACT NAME</label>
+                    <input style="width: 100%;" type="text" id="contact" name="contact">
+
+                    <label for="email"> EMAIL ADDRESS</label>
+                    <input style="width: 100%;" type="text" id="email" name="email" placeholder="name@company.com">
+
+                    <label for="company"> COMPANY NAME</label>
+                    <input style="width: 100%;" type="text" id="company" name="company">
+
+                    <label for="phone">PHONE</label>
+                    <input style="width: 100%;" type="text" id="phone" name="phone">
+
+                    <label for="subject"> SUBJECT</label>
+                    <input style="width: 100%;" type="text" id="subject" name="subject">
+
+                    <label for="description">DESCRIPTION</label>
+                    <textarea style="width: 100%; resize: none;" id="description" name="description" rows="4">
+                        </textarea>
+                </div>
+                <div id="submit" class="submit">SUBMIT</div>
+        </div>
+        <div class="side">
+            <div class="phone">
+                <h3>Phone Numbers</h3>
+            </div>
+            <div class="side1">
+                <p class="p2">Delhi :</p>
+                <p class="p3">+123456789</p>
+            </div>
+            <div class="side2">
+                <p class="p2">Haryana :</p>
+                <p class="p3">+023830183</p>
+            </div>
+            <div class="side3">
+                <p class="p2">Uttar Pradesh :</p>
+                <p class="p3">+194392208</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Copyright © 2024 Crave Corner | powered by Crave Corner</div>
+</body>
+<script>
+    document.getElementById("submit").addEventListener("click",()=>{(alert("your response has been submitted"))})
+</script>
+</html>

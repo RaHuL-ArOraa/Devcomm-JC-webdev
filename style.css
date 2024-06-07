@@ -1,0 +1,247 @@
+body{
+    background-color:#6e6876 ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6e6876;
+    padding: 20px;
+}
+.nav-list{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.para1:hover{
+    color: yellow;
+}
+.para1{
+    font-size: 30px;
+    color: white;
+}
+.img1 {
+    width: 170px;
+    filter: invert(1);
+}
+@media(max-width:876px) {
+    .box {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .nav-list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.box1{
+    height: 83vh;
+    width: 100%;
+    background-image: url(Restaurant\ bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    color: white;
+}
+.para{
+    text-align: start;
+    width:65%;  
+    /* padding-top: 30px; */
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media(max-width:891px){
+    .para{
+        width: 80%;
+        font-size: 25px;
+    }
+}
+.r1{
+    width: 40%;
+}
+.box3{
+    width: 3px;
+    height: 15vh;
+    background-color: white;
+    margin-left: 49vw;
+    margin-top: 14vh;
+}
+.img2{
+    width: 100%;
+}
+.reviews{
+    /* position: relative; */
+    color: white;
+    padding-top: 7vh;
+    text-align: center;
+    font-size: 100px;
+}
+@media(max-width:660px){
+    .box1{
+        height: 60vh;
+    }
+    .reviews{
+        font-size: 60px;
+    }
+}
+.review1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    padding-top: 8vh;
+}
+
+.r2{
+    background-color: #6b6573;
+    width: 40%;
+    /* height: 540px; */
+    border-radius: 22px;
+    filter: drop-shadow(30px 10px 4px #58545f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.r3{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-top: 2vh;
+    width: 90%;
+    padding-bottom: 2vh;
+}
+@media(max-width:1024px){
+    .review1{
+        flex-direction: column;
+    }
+    .r1{
+        width: 60%;
+    }
+    .r2{
+        width: 80%;
+    }
+    
+}
+.p1{
+    /* width: 35vw; */
+    /* position: relative; */
+    
+    color: #d9d7db;
+    font-size: 50px;
+}
+
+
+.p2{
+    /* position: relative; */
+    padding-top: 25px;
+    padding-left: 8px;
+    color: white;
+    font-size: 28px;
+}
+.star{
+    /* position: relative; */
+    width: 30%;
+}
+.star1{
+    width: 40%;
+}
+.walt{
+    width: 80px;
+    border-radius: 80px;
+    /* padding-left: 84px; */
+}
+.container{
+    /* width: 90vw; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    /* align-items: ; */
+    /* gap: 2%; */
+    /* position: relative; */
+    padding-top: 70px;
+    /* border: 2px solid black; */
+    /* padding-left: 200px; */
+}
+.pic1{
+    width:80px ;
+    border-radius: 80px;
+}
+.c1{
+    width: 30%;
+    color:#d9d7db;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:1133px){
+    .c1{
+        width: 40%;
+    }
+    .container{
+        row-gap: 10vh;
+    }
+}
+.rap{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.p4{
+    position: relative;
+padding-top: 20px;
+color: white;
+}
+@media(max-width:851px){
+    .c1{
+        width: 60%;
+    }
+}
+@media(max-width:576px){
+    .c1{
+        width: 80%;
+    }
+    .para{
+        font-size: 17px;
+    }
+    .star{
+    width: 50%;
+    }
+    .p1{
+        font-size: 30px;
+    }
+}
+.footer{
+    /* height: 10vh;    */
+    background-color: rgba(26, 18, 18, 0.563);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding:5   vw;
+    font-size: 32px;
+}
