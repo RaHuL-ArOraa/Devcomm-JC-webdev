@@ -34,6 +34,19 @@ a{
     width: 170px;
     filter: invert(1);
 }
+@media(max-width:670px){
+    .para1{
+        font-size: 22px;
+    }
+    .nav-list{
+        gap: 16px;
+    }
+}
+@media(max-width:490px){
+    .para1{
+        font-size: 15px;
+    }
+}
 @media(max-width:876px) {
     .box {
         flex-direction: column;
