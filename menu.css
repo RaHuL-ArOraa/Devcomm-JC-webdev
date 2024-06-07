@@ -154,6 +154,26 @@ p {
     display: flex;
     justify-content: space-between;
 }
+.order1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 15%;
+    background-color: rgb(71, 135, 232);
+}
+@media(max-width:979px){
+    .order{
+        width: 30%;
+    }
+}
 .footer {
     background-color: rgba(26, 18, 18, 0.563);
     color: white;
